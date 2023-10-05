@@ -10,8 +10,8 @@ exports.config = {
         }
       ]
     ],
-    user: process.env.LT_USERNAME,
-    key: process.env.LT_ACCESS_KEY,
+    user: "YOUR_USERNAME",
+    key: "YOUR_ACCESS_KEY",
     specs: [
       '../tests/specs/allegiant_test.js'
     ],
